@@ -1,0 +1,57 @@
+*{padding: 0px;
+margin: 0px ;
+font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.hero-section {
+    background-image: url(./voyage.webp);
+    background-size: cover;
+    color: #ac2121;
+    text-align: center !important;
+    height: 100vh;
+
+}
+.ctr  { display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.destinations-section {
+    padding: 50px 0 ;
+}
+
+.destinations-section h1 {
+    color: #371f8d;
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: #98ccfa;
+    
+}
+
+.tours-section {
+    padding: 50px 0;
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #c7dbec;
+    color: #3e0d0d;
+    text-align: center;
+    padding: 5px;        
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%; 
+}
+
+.responcive{
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: center;
+    justify-content: center;
+}
